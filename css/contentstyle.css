@@ -1,0 +1,190 @@
+﻿
+
+.formheading 
+{
+		width:1110px;
+		padding-left:2px;
+		padding-bottom:1px;
+		padding-top:1px;
+		font-size:16px;
+		font-family:Arial;	
+		color:Black;
+		background-color:#b2a1c7;
+		font-weight:bolder;
+		
+}
+.subtable 
+{
+	padding-left:2px;
+		padding-bottom:1px;
+		padding-top:1px;
+		font-size:13px;
+		font-family:Arial;	
+		color:Black;
+		border:1px solid #7496c2
+		
+		
+}
+.subtr
+{
+	
+		font-size:12px;
+		font-family:Arial;	
+		color:Black;
+		
+		
+}
+.subtd
+{
+	font-size:8px;
+		font-family:Arial;	
+		color:Black;
+}
+.lefttd
+{	
+	
+	height:23px;
+	font-size:12px;
+
+}
+.initlefttd
+{	
+	
+	height:23px;
+	font-size:12px;
+ width:120px;
+}
+.colontd
+{
+	width:1%;
+	font-weight:bold;
+		/*color:#3C629A;*/
+}
+
+.content 
+{
+		width:100%;
+		padding-left:2px;
+		padding-bottom:1px;
+		padding-top:1px;
+		font-size:13px;
+		font-family:Arial;	
+		color:#414242;
+		background-color:#d2e0f1;
+		font-weight:bold;
+		height:25px;
+		vertical-align:middle;
+		
+}
+
+
+b
+{
+		width:1110px;
+		padding-left:0px;
+		padding-bottom:2px;
+		padding-top:2px;
+		font-size:13px;
+		font-family:Arial;	
+color:Black;
+				/*color:#2B5594;*/
+		
+		font-weight:bold;
+	
+		
+}
+
+.boldblack
+{
+		width:1110px;
+		padding-left:0px;
+		padding-bottom:2px;
+		padding-top:2px;
+		font-size:13.5px;
+		font-family:Arial;	
+color:Black;
+		
+		font-weight:normal;
+	
+		
+}
+.c10
+{
+	
+		padding-bottom:3px;
+		padding-top:3px;
+		font-size:12px;
+		font-family:Arial;	
+		color:Gray;
+		
+}
+.textborder
+{
+	border:1px;
+	border-color:Silver;
+	/*border-color:#7496c2;*/
+	border-style:groove;
+	font-size:13px;
+	font-family:Arial;
+	color:Black;
+	/*color:#7496c2;*/
+	width:250px;
+
+}
+
+.dropdownbig
+{
+	border:1px;
+	border-color:Silver;
+	/*border-color:#7496c2;*/
+	border-style:groove;
+	font-size:13px;
+	font-family:Arial;
+	color:Black;
+	/*color:#7496c2;*/
+	width:280px;
+
+}
+.searchdropdown
+{
+	border:1px;
+	border-color:Silver;
+	/*border-color:#7496c2;*/
+	border-style:groove;
+	font-size:13px;
+	font-family:Arial;
+	color:Black;
+	/*color:#7496c2;*/
+	width:350px;
+
+}
+.dropdownsmall
+{
+	border:1px;
+	border-color:Silver;
+	/*border-color:#7496c2;*/
+	border-style:groove;
+	font-size:12px;
+	font-family:Arial;
+	color:Black;
+	/*color:#7496c2;*/
+	width:100px;
+
+}
+.buttonstyle
+{
+	 Width:50px;
+	 Height:25px;
+	 background-color:#dddee0;
+	 Font-Size:12px;
+	 border-radius:5px;
+	 font-weight:bold;
+	 font-family:Arial;
+	 color:#333333;
+}
+.paneltd
+{
+	width:368px;	
+	height:25px;
+}
+

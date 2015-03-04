@@ -1,0 +1,116 @@
+﻿
+
+.formheading 
+{
+		width:1110px;
+		padding-left:2px;
+		padding-bottom:1px;
+		padding-top:1px;
+		font-size:16px;
+		font-family:Arial;	
+		color:Black;
+		background-color:#b2a1c7;
+		font-weight:bolder;
+		
+}
+.subtable 
+{
+	padding-left:2px;
+		padding-bottom:1px;
+		padding-top:1px;
+		font-size:13px;
+		font-family:Arial;	
+		color:#b2a1c7;
+		border:1px solid #b1a2c7
+		
+		
+}
+.subtr
+{
+	
+		font-size:12px;
+		font-family:Arial;	
+		color:Black;
+		
+		
+}
+.subtd
+{
+	font-size:8px;
+		font-family:Arial;	
+		color:Black;
+}
+.lefttd
+{	
+	/*width:200px;	*/
+	height:23px;
+}
+.colontd
+{
+	width:1%;
+	font-weight:bold;
+	
+}
+
+.content 
+{
+		width:80%;
+		padding-left:2px;
+		padding-bottom:1px;
+		padding-top:1px;
+		font-size:18px;
+		font-family:Arial;	
+		color:Black;
+		background-color:#b2a1c7;
+		font-weight:bolder;
+		
+}
+
+
+b
+{
+		width:1110px;
+		padding-left:0px;
+		padding-bottom:2px;
+		padding-top:2px;
+		font-size:13px;
+		font-family:Arial;	
+		color:Black;
+	
+		
+}
+.c10
+{
+	
+		padding-bottom:3px;
+		padding-top:3px;
+		font-size:12px;
+		font-family:Arial;	
+		color:Gray;
+		
+}
+.textborder
+{
+	border:1px;
+	border-color:Silver;
+	border-style:groove;
+	font-size:12px;
+	font-family:Arial;
+	color:Gray;
+	width:180px;
+
+}
+.buttonstyle
+{
+	 Width:50px;
+	 Height:25px;
+	 background-color:#b2a1c7;
+	 Font-Size:12px;
+	 border-radius:5px;
+}
+.paneltd
+{
+	width:368px;	
+	height:25px;
+}
+

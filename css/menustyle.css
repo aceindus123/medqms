@@ -1,0 +1,41 @@
+﻿#nav {
+height:40px; position:relative; font-family:arial, verdana, sans-serif; font-size:14px;z-index:500;
+background-image:url(../images/cmmmenu.png);
+width:100%;
+/*margin-left:120px;*/
+border-radius:10px;
+ color:White;
+}
+
+#nav li.header {
+color: #FFF;
+text-decoration: none;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 14px;
+font-weight: bold;
+width:100%;
+}
+
+#nav li.header a {
+display:block;  text-decoration:none; line-height:35px; white-space:nowrap;  color:White;
+
+}
+
+#nav li.header a:hover {
+line-height:35px; cursor:pointer; color:#c5d6ee; 
+ 	 height:35px; }
+
+#nav li.header a.active {
+background-color:White;
+color:#7496c2;
+ 
+}
+#nav li.header a.deactive {
+background-color:#7496c2;
+color:white;
+
+ 
+}
+
+
+

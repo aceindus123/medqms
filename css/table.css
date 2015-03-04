@@ -1,0 +1,247 @@
+﻿@charset "utf-8";
+.tabwidth
+{
+	width:1280px;
+	}
+	.tdalignleft
+	{
+		
+		align:right;
+		text-align:right;
+		font-weight:bold;
+		font-size:16px;
+		color:Black;
+		width:180px;
+		}
+		.tdalignright
+	{
+		
+		align:left;
+		text-align:left;
+		}
+		.tdcolon
+		{
+			font-weight:bold;
+		font-size:16px;
+		width:3%;
+		color:Black;
+		
+			
+			}
+		.tdalignleft1
+	{
+		
+		align:right;
+		text-align:right;
+		font-weight:bold;
+		font-size:16px;
+		color:Black;
+		width:140px;
+		}
+		.tdinnerleft
+		{
+			
+			align:right;
+			width:170px;
+			}
+			.tdinnerright
+			{
+				
+				align:left;
+			
+				}
+				.tdinnercolon
+		{
+			
+		font-size:14px;
+		width:2%;
+		color:Black;
+		
+			
+			}
+			.tdinitleft
+			{
+				padding-left:140px;
+				text-align:left;
+				
+				}
+				.tdinitright
+				{
+					text-align:right;
+					padding-right:140px;
+					
+					}
+					.lnklogout
+					{
+						font-size:18px;
+						color:Red;
+						font-weight:bold;
+						background-color:inherit;
+						
+						}
+						.initlblsleft
+						{
+							
+							font-size:13px;
+							font-weight:bold;
+							}
+							.initlblsleftrt
+							{
+								font-size:16px;
+								}
+							.lbluname
+							{
+								font-size:13px;
+								font-family:Arial;
+								font-weight:bold;
+								}
+								.lnkcolor
+								{
+									
+									font-size:13px;
+									font-weight:bold;
+									font-family:Arial;
+									color:#3C629A;
+									}
+									.lnkcolor:hover
+									{
+										
+										color:#7496c2;
+										}
+										.active
+										{
+											color:#7496c2;
+											}
+											.deactive
+											{
+											    display:block;  text-decoration:none; line-height:35px; white-space:nowrap;  color:White;
+											    }
+											    
+									.gridhead
+									{
+										font-size:12.5px;
+										font-family:Arial;
+										/*font-weight:bold;*/
+										color:Black;
+										background-color:#c6d8ef;
+										
+										}
+										.gridbody
+									{
+										font-size:12px;
+										font-family:Arial;
+										
+										
+										}
+										.gridlink
+										{
+											
+											font-size:13px;
+											}
+											.gridlink:hover
+											{
+												color:#032FA9;
+												}
+												.gridborder
+												{
+													border:1px solid #3C629A;
+													}
+										.bdyconthead
+										{
+											font-weight:bold;
+											color:#3C629A;
+											font-size:14px;
+											}
+											.login
+											{
+												
+												background-image:url(images/loginbg12.png);
+												
+												}
+												.loginright
+												
+                                                        {
+	                                                     
+	                                          background-image:url('images/textbox.png');
+		                                    	width:230px;
+	                                   		 height:25px;
+	                                	 	border-radius:5px;
+	                                	 	font-family:Arial,Helvetica,sans-serif;
+	
+
+                                             }
+                                             .loginfont
+                                             {
+                                             	
+                                             		font-family:Arial,Helvetica,sans-serif;
+                                             		font-weight:bold;
+                                             	}
+                                             .filemenu
+                                             {
+                                             	
+                                             	color:Black;
+                                             	font-weight:bold;
+                                             	}
+                                             
+                                             		.rbtninit
+                                             		{
+                                             			font-size:13px;
+                                             			margin:10px;
+                                             			line-height:25px;
+                                             			font-family:Arial;
+                                             			}
+                                             			.homebodyheadings
+                                             			{
+                                             			    font-size:22px;
+                                             			    font-weight:bold;
+                                             			    color:#6c95c1;
+                                             			    }
+                                             			    .homebodyis
+                                             			    {
+                                             			        
+                                             			         font-size:22px;
+                                             			    font-weight:bold;
+                                             			    color:#6c95c1;
+                                             			        }
+                                             			        .norecords
+                                             			        {
+                                             			            color:Red;
+                                             			            font-size:medium;
+                                             			            font-weight:bold;
+                                             			            }
+                                             			            .searchline
+                                             			            {
+                                             			                line-height:50px;
+                                             			                color:#acc7eb;
+                                             			                
+                                             			                }
+                                             			                .readonlycolor
+                                             			                {
+                                             			                    background-color:#e3e3e3;
+                                             			                    }
+                                             			                    .searchname
+                                             			            {
+                                             			               
+                                             			                color:#acc7eb;
+                                             			                font-weight:bold;
+                                             			                
+                                             			                }
+                                             			                .cidfont
+                                             			                {
+                                             			                    font-size:small;
+                                             			                    font-weight:bold;
+                                             			                    }
+                                             			                  .spellchkbtn
+                                             			                  {
+                                             			                       background-color:#d2e0f1;
+                                             			                       height:25px;
+                                             			                       border-radius:5px;
+                                             			                       color:Black;
+                                             			                       font-weight:bold;
+                                             			                      
+                                             			                      }
+                                             			                      .pnlborder
+                                             			                      {
+                                             			                        color:#093982;
+                                             			                        line-height:50px;
+                                             			                          }

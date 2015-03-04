@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CMSMasterPage22.master.cs" Inherits="CMSMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>||CMM||</title>
+<link href="css/style1.css" rel="stylesheet" />
+<link href="css/menustyle.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+$('.header a').filter(function () {
+return this.href == location.href.replace(/#.*/, "");
+}).addClass('active');
+});
+</script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapperclass">
+<div id="header">
+<div class="logo">
+<img src="images/logocmm.jpg" style="height:120px; width:240px;" alt="CMM"/>
+</div>
+
+<div style="width:880px;height:120px;vertical-align:bottom">
+<br /><br /><br />
+<center><h3 style="color:#3C629A;font-weight:bold;vertical-align:bottom">CHANGE MANAGEMENT</h3></center>
+
+
+
+</div>
+</div>
+
+
+
+  <div id="nav" style="vertical-align:top">
+      
+      <table class="menuspace" style="vertical-align:top">
+      <tr>
+      
+          <td width="8%" align="center" runat="server" id="home">
+     <li style="list-style:none;" class="header">
+<%--  <asp:LinkButton ID="LinkButton4" runat="server" onclick="LinkButton4_Click"  
+            >Home</asp:LinkButton>--%>
+            <%--<a href="CMM Home.aspx"  id="home1" runat="server" >Home</a>--%>
+
+            <a href="<%$RouteUrl:RouteName=changemanagement%>"  id="home1" runat="server" >Home</a>
+          
+   </li>
+   </td>
+      
+    
+       <td width="8%" align="center" runat="server" id="ini">
+     <li style="list-style:none;" class="header">
+          <%--   <a href="CMS_Initiator.aspx?parameter=Initiator1&param1=newInitiator " id="initiator1" runat="server" >Initiator</a>
+           --%>
+              <%--<a href="CMS_Initiator.aspx?parameter=Initiator1 " id="initiator1" runat="server" >Initiator</a>--%>
+              <a href="<%$RouteUrl:RouteName=changemanagement,parameter=Initiator1%>" id="initiator1" runat="server">Initiator</a>   
+   </li>
+   </td>
+      
+      <td width="8%" align="center" runat="server" id="rev">
+      <li style="list-style:none;" class="header">
+   <%-- <asp:LinkButton ID="lnkCls" runat="server"  
+              onclick="lnkCls_Click">Reviewer</asp:LinkButton>--%>
+               <%--<a href="CMS_ChangeOwner.aspx?parameter=gidcid" id="reviewer1" runat="server" >Reviewer</a>--%>
+               <a href="<%$RouteUrl:RouteName=changeowner,parameter=gidcid%>" id="reviewer1" runat="server" >Reviewer</a>
+            
+
+</li>
+      </td>
+    
+      
+       <td align="center" width="6%" runat="server" id="cor">
+       
+     <%-- <li style="padding-left:0px;margin-left:6px;list-style-type:none"><a href="news.aspx" >Coordinator</a></li>--%>
+     <li style="list-style:none;" class="header">
+      <%-- <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click"  
+             >Coordinator</asp:LinkButton>--%>
+              <%--<a href="QAReg1.aspx?parameter=gidcid"  id="coordinator1" runat="server">Coordinator</a>--%>
+           <a href="<%$RouteUrl:RouteName=cmmqareg,parameter=gidcid%>"  id="coordinator1" runat="server">Coordinator</a>
+              </li>
+
+    
+      </td>
+   
+      <td width="8%" align="center" runat="server" id="cet">
+      
+      <li style="padding-left:0px;padding-left:0px;list-style-type:none" class="header">
+      <%--<a href="Default.aspx" title="Forums">CFT</a>--%>
+    <%--  <asp:LinkButton ID="LinkButton2" runat="server" onclick="LinkButton2_Click"  
+             >CFT</asp:LinkButton>--%>
+              <%--<a href="CMS_Final QA.aspx?parameter=gidcid" id="cft1" runat="server" >CFT</a>--%>
+            <a href="<%$RouteUrl:RouteName=cmmcft,parameter=gidcid%>" id="cft1" runat="server" >CFT</a>
+      
+      </li>
+     </td>
+   
+      <td width="8%" align="center" runat="server" id="ra">
+       <li style="padding-left:0px;padding-left:0px;list-style-type:none" class="header">
+    <%-- <asp:LinkButton ID="lnkYP" runat="server" onclick="lnkYP_Click">RA/CG</asp:LinkButton>--%>
+     <%--<a href="CMS_racg.aspx?parameter=gidcid" id="racg1" runat="server" >RA/CG</a>--%>
+  <a href="<%$RouteUrl:RouteName=cmmracg,parameter=gidcid%>" id="racg1" runat="server" >RA/CG</a>
+</li>
+      </td>
+     
+       <td width="8%" align="center" runat="server" id="app">
+      <li style="padding-left:0px; padding-left:0px;list-style-type:none" class="header">
+      <%--<a href="travelhome.aspx" >Approver</a>--%>
+    <%--  <asp:LinkButton ID="LinkButton3" runat="server" onclick="LinkButton3_Click">Approver</asp:LinkButton>--%>
+   <%--  <a href="CMS_Cab Review.aspx?parameter=gidcid" id="approver1" runat="server" >Approver</a>--%>
+      <a href="<%$RouteUrl:RouteName=cmmapprover,parameter=gidcid%>" id="approver1" runat="server" >Approver</a>
+
+</li>
+      </td>
+ 
+      </tr>
+      </table>
+
+
+</ul>
+</div>
+
+
+
+
+
+
+<div id="content">
+<div style="padding-top:10px;padding-bottom:25px" align="center">
+<div>
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+</div>
+</div>
+</div>
+<%--<div id="footer" >
+<img src="images/footer.jpg" style="width:80%;border-radius:10px; height:40px; margin-right:15px;
+	margin-left:120px;" />
+</div>--%>
+  </div>
+    </form>
+</body>
+</html>
